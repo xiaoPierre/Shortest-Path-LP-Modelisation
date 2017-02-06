@@ -100,3 +100,49 @@ X_CF                          1.000000
 X_FH                          1.000000
 X_HJ                          1.000000
 All other variables matching '*' are 0.
+
+Log started (V12.7.0.0) Sat Feb  4 16:51:11 2017
+
+CPLEX Error  1615: Line 9: Expected number, found 'n'.
+No file read.
+CPLEX Error  1615: Line 9: Expected number, found 'N'.
+No file read.
+
+Problem 'covering_AJ.lp' read.
+Read time = 0.00 sec. (0.00 ticks)
+Tried aggregator 2 times.
+MIP Presolve eliminated 16 rows and 15 columns.
+Aggregator did 2 substitutions.
+All rows and columns eliminated.
+Presolve time = 0.00 sec. (0.02 ticks)
+
+Root node processing (before b&c):
+  Real time             =    0.00 sec. (0.03 ticks)
+Parallel b&c, 4 threads:
+  Real time             =    0.00 sec. (0.00 ticks)
+  Sync time (average)   =    0.00 sec.
+  Wait time (average)   =    0.00 sec.
+                          ------------
+Total (root+branch&cut) =    0.00 sec. (0.03 ticks)
+
+Solution pool: 1 solution saved.
+
+MIP - Integer optimal solution:  Objective =  3.9000000000e+01
+Solution time =    0.01 sec.  Iterations = 0  Nodes = 0
+Deterministic time = 0.03 ticks  (3.79 ticks/sec)
+
+
+Incumbent solution
+Variable Name           Solution Value
+X_AB                          1.000000
+X_AD                          1.000000
+X_CF                          1.000000
+X_BE                          1.000000
+X_EC                          1.000000
+X_DG                          1.000000
+X_GI                          1.000000
+X_FH                          1.000000
+X_IJ                          1.000000
+X_HJ                          1.000000
+NB_FLOW                       2.000000
+All other variables matching '*' are 0.
